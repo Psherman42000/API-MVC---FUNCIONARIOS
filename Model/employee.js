@@ -10,7 +10,8 @@ function employee(name, cpf, office){
     }
 
     function getEmployee(){
-        return employee;
+        const employeeObject = employee;
+        return employeeObject;
     }
 
     function getName(){
